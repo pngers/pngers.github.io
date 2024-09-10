@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+    <script>
+        // Change this URL to the link you want to redirect to
+        const redirectUrl = "https://www.example.com";
+
+        // Redirect after 0 milliseconds (instant)
+        window.onload = function() {
+            window.location.href = redirectUrl;
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Redirecting...</h1>
+        <p>If you are not redirected automatically, follow this <a id="redirect-link" href="#">link</a>.</p>
+    </div>
+</body>
+</html>
